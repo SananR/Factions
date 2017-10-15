@@ -1,0 +1,42 @@
+inventories:
+  base-menu:
+      name: "&bFaction Menu"
+      size: 27
+      items:
+        members:
+          slot: 10
+          id: "340"
+          name: "&bMembers"
+          lore: 
+            - "&cOpen up the list of members in your faction."
+        info:
+          slot: 12
+          id: "387"
+          name: "&bInfo"
+          lore: 
+            - "&cOpen up"
+        bank:
+          slot: 14
+          id: "130"
+          name: "&bFaction Bank"
+          lore: 
+            - "&cOpen up your faction bank."
+        leave:
+          slot: 16
+          id: "351:1"
+          name: "&bLeave Faction"
+          lore: 
+            - "&c&lWARNING - This will remove you from your current faction!"
+            
+    
+messages:
+    invalid-permissions: "&cYou do not have permission to execute this command."
+    invalid-arguments: "&cInvalid arguments! Did you mean: &e%suggestion%"
+    already-in-faction: "&cYou can't create a Faction unless you leave your current one!"
+    create-faction:
+      - "&e------------[Factions]------------"
+      - "                                    "
+      - "   &cFaction &b%faction% &ccreated  "
+      - "                                    "
+      - "&e------------[Factions]------------"
+    

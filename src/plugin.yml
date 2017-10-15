@@ -1,0 +1,8 @@
+name: BasePlugin
+version: 1.0.0
+main: com.codex.baseplugin.Main
+description: The base plugin (factions)
+commands:
+     b:
+         usage: /<command>
+         description: Faction base command.
