@@ -1,4 +1,7 @@
 inventories:
+  members:
+      name: "&bMembers"
+      size: 54
   base-menu:
       name: "&bFaction Menu"
       size: 27
@@ -32,7 +35,38 @@ inventories:
 messages:
     invalid-permissions: "&cYou do not have permission to execute this command."
     invalid-arguments: "&cInvalid arguments! Did you mean: &e%suggestion%"
+    invalid-player: "&cThe player specified is invalid or not online."
     already-in-faction: "&cYou can't create a Faction unless you leave your current one!"
+    name-taken: "&cThis faction name is already in use!"
+    no-faction: "&cYou are not in a faction!"
+    faction-leave: "&cYou have left your current faction!"
+    faction-leave-owner: "&cYou can't leave your own faction! Use &e/b disband &cinstead."
+    not-owner: "&cYou are not the owner of the faction!"
+    set-home: "&bYou have set the faction home to &eyour current location."
+    home-not-set: "&cYour faction home is not set! Use &e/b sethome &cto set the home."
+    home-cancel: "&cTeleport home has been cancelled because you moved!"
+    home-start: "&bTeleporting to faction home in &e6 &bseconds..."
+    home-teleport: "&bTeleported to faction home."
+    faction-chat-format: "&e[&6%player%&e] &b- &7%message%"
+    faction-chat-format-elder: "&e[&5Elder&e][&6%player%&e] &b- &7%message%"
+    faction-chat-format-leader: "&e[&9Leader&e][&6%player%&e] &b- &7%message%"
+    faction-chat-on: "&bYou are now talking in faction chat."
+    faction-chat-off: "&cYou are no longer talking in faction chat."
+    already-claimed: "&cThis land is already owned by &e%faction%&c."
+    land-claim: "&bYou have claimed this land for your faction!"
+    land-unclaim: "&bYou have &cunclaimed &bthis land for your faction!"
+    unclaim-not-owned: "&cYou do not own this land."
+    elder-promote: "&bYou have promoted &e%player% &bto the &eElder &brank!"
+    elder-promote-owner: "&cThe owner can't be promoted to Elder!"
+    elder-promoted: "&bYou have been promoted to the &eElder &brank by &e%player%&b!"
+    faction-disband:
+      - "&e------------[Factions]------------"
+      - "                                    "
+      - "   &cFaction &b%faction% &c&lDISBANDED"
+      - "                                    "
+      - "&e------------[Factions]------------"
+    name-too-long: "&cFaction name can't be more then 10 characters."
+    name-too-short: "&cFaction name can't be less then 3 characters."
     create-faction:
       - "&e------------[Factions]------------"
       - "                                    "
